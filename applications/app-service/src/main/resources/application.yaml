@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "dojo-bancolombia"
+  devtools:
+    add-properties: false
+  profiles:
+    include: null
+  data:
+    mongodb:
+      uri: "mongodb+srv://yurday93:Perez.1993.65@clusterpracticamongodb.ovzsm.mongodb.net/appgradlereactive?retryWrites=true&w=majority"
